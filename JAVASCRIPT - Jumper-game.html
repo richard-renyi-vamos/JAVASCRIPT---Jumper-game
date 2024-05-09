@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jumper Game</title>
+<style>
+  #game-container {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    position: relative;
+  }
+  #player {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+  }
+  .obstacle {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+  }
+</style>
+</head>
+<body>
+<div id="game-container">
+  <div id="player"></div>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
